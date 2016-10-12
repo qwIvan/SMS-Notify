@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="邮件设置">
+
+        <EditTextPreference
+            android:key="host"
+            android:title="SMTP服务器"
+            android:defaultValue="smtp.qq.com"
+            android:summary="例：smtp.qq.com"/>
+
+        <EditTextPreference
+            android:key="port"
+            android:title="端口号"
+            android:numeric="signed"
+            android:defaultValue="587"/>
+
+        <CheckBoxPreference
+            android:key="tls"
+            android:title="是否加密"
+            android:defaultValue="true"/>
+
+        <EditTextPreference
+            android:key="from"
+            android:title="发送者"
+            android:summary="例：from@qq.com"/>
+        
+        <EditTextPreference
+            android:key="password"
+            android:title="发送者密码"
+            android:password="true"/>
+
+        <EditTextPreference
+            android:key="to"
+            android:title="接收者"
+            android:summary="例：to@qq.com，可与发送者一致"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

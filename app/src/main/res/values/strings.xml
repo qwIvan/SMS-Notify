@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">短信转发到邮件</string>
+    <string name="setting">设置</string>
+    <string name="on_off">开关</string>
+    <string name="start_listen">开始监听</string>
+    <string name="stop_listen">停止监听</string>
+    <string name="email_receiver">邮件接收者</string>
+    <string name="started">已开始</string>
+    <string name="stoped">已停止</string>
+</resources>
